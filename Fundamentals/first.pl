@@ -22,7 +22,7 @@ print "-----------------------------------\n";
 $str1 = "hello";
 $str2 = "bz";
 $str3 = "hello";
-$str4 = "jello";
+$str4 = "jellz";
 print ($str1 eq $str3);
 print "\n";
 print ($str1 eq $str2);
