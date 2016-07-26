@@ -17,18 +17,22 @@ foreach my $item (@array)
     last if $item eq $pass;
     say $item;
 }
-say "\nflavor 3:";
+say "\nflavor" 3;
+#uses special default variable
 foreach (@array)
 {say $_}
 
 say "\nflavor 4:";
+#uses special default variable
 foreach (@array)
 {say;}
 
 say "\nflavor 5:";
+#uses special default variable
 say foreach @array;
 
 say "\nflavor 6:";
+#standard for loop
 for(my $i = 0; $array[$i]; ++$i)
 {say $array[$i];}
 
