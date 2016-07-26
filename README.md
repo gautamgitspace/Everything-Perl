@@ -4,11 +4,11 @@ From rudimentary to advanced Perl -  For when you care enough to program the ver
 
 Perl code for:
 
-Learning basics
-Implementing Data Structures
-Data processing and text/XML parsing
-File I/O
-Working with Databaes
-Automating tasks
+1. Learning basics
+2. Implementing Data Structures
+3. Data processing and text/XML parsing
+4. File I/O
+5. Working with Databaes
+6. Automating tasks
 
 Fork and learn!
