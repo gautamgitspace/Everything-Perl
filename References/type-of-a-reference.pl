@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 use 5.18.0;
 use warnings;
+use Data::Dumper;
 
 #make some anonymous references:
 
@@ -32,6 +33,8 @@ sub display_ref
     elsif(ref($disp_ref) eq 'HASH')
     {
         say 'HELLO '. ref($disp_ref);
+        #print using Data Dumper
+        print Dumper($disp_ref);
         say "Changing your 2nd and 3rd element to 'dos' and 'tres'";
         sleep(2);
         say '......';
