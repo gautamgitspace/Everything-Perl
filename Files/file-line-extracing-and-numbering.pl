@@ -4,12 +4,14 @@
 use 5.18.0;
 use warnings;
 my $lineCount=1;
+my $fileName = shift @ARGV || "GeoData.csv";
+open FH, $fileName or die $!;
 my @chunks;
-while(<>)
+while(my $line = <FH>)
 {
     print $lineCount++;
     #split csv
-    @chunks =  split/,/, $_;
+    @chunks =  split/,/, $line;
     #print 3 column
     print ": $chunks[2]\n";
 }
